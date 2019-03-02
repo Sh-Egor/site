@@ -25,11 +25,30 @@ h2{
 
 .sample{
     display: flex;
+    margin-top: 1rem;
 }
 .input-text{
+    border: 2px solid rgb(100,100,100);
+    border-radius: 6px;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.5rem;
     background-color: rgb(17, 167, 194);
+    width: 100%;
 }
-
+.input-text:hover{
+    border-color: rgb(150,150,150);
+}
 .match{
     color:rgb(0,180,0);
+    width: 7rem;
+    margin-left: 10px;
+    white-space:nowrap;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 2rem;
 }
