@@ -85,7 +85,7 @@ h2{
     -webkit-animation: Gradient 15s ease infinite; 
     -moz-animation: Gradient 15s ease infinite; 
     animation: Gradient 15s ease infinite; 
-    background-size: 400% 400%; 
+    background-size: 400% 800%; 
 }
 .input-text:hover{
     border-color: rgb(150,150,150);
