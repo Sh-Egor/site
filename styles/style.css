@@ -1,9 +1,55 @@
+body { 
+    width: 100wh; 
+    height: 90vh; 
+    color: #fff; 
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); 
+    background-size: 400% 400%; 
+    -webkit-animation: Gradient 15s ease infinite; 
+    -moz-animation: Gradient 15s ease infinite; 
+    animation: Gradient 15s ease infinite; 
+    } 
+    
+    @-webkit-keyframes Gradient { 
+    0% { 
+    background-position: 0% 50% 
+    } 
+    50% { 
+    background-position: 100% 50% 
+    } 
+    100% { 
+    background-position: 0% 50% 
+    } 
+    } 
+    
+    @-moz-keyframes Gradient { 
+    0% { 
+    background-position: 0% 50% 
+    } 
+    50% { 
+    background-position: 100% 50% 
+    } 
+    100% { 
+    background-position: 0% 50% 
+    } 
+    } 
+    
+    @keyframes Gradient { 
+    0% { 
+    background-position: 0% 50% 
+    } 
+    50% { 
+    background-position: 100% 50% 
+    } 
+    100% { 
+    background-position: 0% 50% 
+    } 
+    }
 html{
     font-size: 16px;
 }
-body{
-    background-color: rgb(0, 0, 0);
-}
+/* body{ */
+    /* background-color: rgb(0, 0, 0); */
+/* } */
 
 .container {
     width: 80%;
@@ -12,13 +58,13 @@ body{
     min-width: 300px;
 }
 h1{
-    color: rgb(0, 180, 0);
+    color: white;
     text-align: center;
     font-size: 4rem;
 }
 
 h2{
-    color: rgb(0, 180, 0);
+    color: white;
     text-align: center;
     font-size: 2rem;
 }
@@ -40,7 +86,7 @@ h2{
     border-color: rgb(150,150,150);
 }
 .match{
-    color:rgb(0,180,0);
+    color: white;
     width: 7rem;
     margin-left: 10px;
     white-space:nowrap;
